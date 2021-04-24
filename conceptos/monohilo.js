@@ -1,6 +1,3 @@
-## node fundamentos
-
-````javascript
 console.log('Hola mundo');
 let i = 0;
 setInterval(function() {
@@ -9,4 +6,3 @@ setInterval(function() {
 }, 1000);
 
 console.log('Segunda instrucción');
-````
