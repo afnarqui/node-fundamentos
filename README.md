@@ -269,6 +269,7 @@ console.count('veces');
 console.countReset('veces');
 console.count('veces');
 ````
+## Error
 
 ````javascript
 function otraFuncion() {
