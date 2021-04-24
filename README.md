@@ -473,3 +473,15 @@ let ahora = moment();
 console.log(ahora.format('YYYY/MM/DD - HH:mm'));
 
 ````
+
+
+## sharp
+````javascript
+const sharp = require('sharp');
+
+sharp('original.png')
+    .resize(80)
+    .grayscale()
+    .toFile('resized.png');
+
+````
