@@ -29,7 +29,6 @@ function conversacion(nombre, veces, callback) {
     }
 }
 
-// --
 
 console.log('Iniciando proceso...');
 hola('Carlos', function (nombre) {
