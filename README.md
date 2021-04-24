@@ -437,3 +437,11 @@ funcionQueNoExiste();
 
 console.log('Esto si el error no se recoje, no sale');
 ````
+
+## experimental
+````javascript
+import modulo from './modulo.mjs'
+
+console.log(modulo.prop1);
+modulo.saludar();
+````
