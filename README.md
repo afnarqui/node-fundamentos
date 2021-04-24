@@ -334,3 +334,9 @@ proceso.on('exit', function() {
     console.log(proceso.killed)
 })
 ````
+
+````javascript
+const miAddon = require('./build/Release/addon');
+
+console.log(miAddon.hola());
+````
