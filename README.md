@@ -334,7 +334,7 @@ proceso.on('exit', function() {
     console.log(proceso.killed)
 })
 ````
-
+## Nativos
 ````javascript
 const miAddon = require('./build/Release/addon');
 
